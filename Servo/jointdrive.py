@@ -27,39 +27,40 @@ class JointDrive(ServoAx12a):
     # id -> id of servo, cw -> rotating direction, aOffset -> angle offset,
     # aMax -> maximum angle allowed, aMin -> minimum angle allowed
     def __init__(self, id, ccw = False, aOffset = 0.0, aMax = math.pi * 2, aMin = -math.pi * 2):
-        
+       pass 
     # Converts angle in radian to servo ticks
     # angle -> in radian, returns angle in servo ticks
     def __convertAngleToTicks(self, angle):
-    
+        pass
     # Converts servo ticks to angle in radian
     # ticks -> servo ticks, returns angle in radian
     def __convertTicksToAngle(self, ticks):
-    
+        pass
     # Converts speed in rpm to servo ticks
     # speed -> value in rpm
     def __convertSpeedToTicks(self, speed):
-    
+        pass
     # Converts ticks to speed in rpm
     # ticks -> servo ticks
     def __convertTicksToSpeed(self, ticks):
-
+        pass
     # Public methods    
     #----------------------------------------------------------------------
     # Get current angle of servo
     # returns angle in radian
     def getCurrentJointAngle(self):
-
+        pass
     # Set servo to desired angle
     # angle -> in radian,
     # speed -> speed of movement, speed < 0 -> no speed set, speed = 0 -> maximum speed
     def setDesiredJointAngle(self, angle, trigger = False):
-
+        pass
     # Set servo to desired angle
     # angle -> in radian,
     # speed -> speed of movement in rpm, speed = 0 -> maximum speed
     def setDesiredAngleSpeed(self, angle, speed = 0, trigger = False):
-    
+        pass
     # Set speed value of servo
     # speed -> angle speed in rpm
     def setSpeedValue(self, speed, trigger = False):
+        pass
